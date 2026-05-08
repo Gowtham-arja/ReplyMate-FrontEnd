@@ -17,7 +17,7 @@ function EmailAssistant() {
         setError('')
 
         try {
-            const response = await fetch('https://replymate-backend-xxxx.onrender.com/api/email/generate', {
+            const response = await fetch('https://replymate-backend-k8uu.onrender.com/api/email/generate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -54,7 +54,7 @@ function EmailAssistant() {
 
     return (
         <div className='bg-gray-800 h-screen w-screen flex items-center justify-center overflow-hidden'>
-            <div className='bg-gray-700 h-screen w-full max-w-6xl rounded-lg p-6 overflow-y-auto flex flex-col no-scrollbar'>
+            <div className='bg-red-700 h-screen w-full max-w-6xl rounded-lg p-6 overflow-y-auto flex flex-col no-scrollbar'>
                 <h1 className="text-3xl font-bold underline">
                     Email Generator Assistant
                 </h1>
