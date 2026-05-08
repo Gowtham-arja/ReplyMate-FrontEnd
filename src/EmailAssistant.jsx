@@ -55,8 +55,8 @@ function EmailAssistant() {
     return (
         <div className='bg-gray-800 h-screen w-screen flex items-center justify-center overflow-hidden'>
             <div className='bg-gray-700 h-screen w-full max-w-6xl rounded-lg p-6 overflow-y-auto flex flex-col no-scrollbar'>
-                <h1 className="text-3xl font-bold underline">
-                    Email Generator Assistant
+                <h1 className="text-3xl font-bold text-white text-center">
+                    ReplyMate - Your AI Email Assistant
                 </h1>
                 
                 <div className='mt-6'>
